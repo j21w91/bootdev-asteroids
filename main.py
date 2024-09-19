@@ -38,7 +38,7 @@ def main():
             obj.update(dt)
         for asteroid in asteroids:
             if player.is_colliding(asteroid):
-                print("Game Over, pal!")
+                print("Game Over!")
                 sys.exit()
 
         for asteroid in asteroids:
